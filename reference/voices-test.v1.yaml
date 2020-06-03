@@ -13,7 +13,7 @@ paths:
       responses:
         '200':
           description: OK
-      description: Wait for 2 seconds before returning
+      description: 'Wait for 2 seconds before returning!'
       security: []
 components:
   schemas: {}
