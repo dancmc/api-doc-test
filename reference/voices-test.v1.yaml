@@ -15,6 +15,15 @@ paths:
           description: OK
       description: 'Wait for 2 seconds before returning!'
       security: []
+      tags:
+        - Misc Endpoints
+  /users/meh:
+    get:
+      summary: Your GET endpoint
+      tags:
+        - Users
+      responses: {}
+      operationId: get-users-meh
 components:
   schemas: {}
   securitySchemes:
